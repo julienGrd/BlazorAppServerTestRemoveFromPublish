@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="20.1.0.52" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\FileToExclude.txt" CopyToPublishDirectory="Never" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\_content\Syncfusion.Blazor.Themes\bootstrap.css" CopyToPublishDirectory="Never" />
+  </ItemGroup>
+
+</Project>
